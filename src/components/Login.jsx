@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 
 export const Login = () => {
 
+    console.log("Iniciado")
+
     const [username, setUsername] = useState(null);
     const [userID, setUserID] = useState(null);
 

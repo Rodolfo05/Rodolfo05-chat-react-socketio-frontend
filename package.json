@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rodolfo05.github.io/Rodolfo05-chat-react-socketio-frontend",
+  "homepage": "https://rodolfo05.github.io/Rodolfo05-chat-react-socketio-frontend/",
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=./",
