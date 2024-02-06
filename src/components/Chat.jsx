@@ -3,10 +3,10 @@ import { useLocation } from 'react-router-dom';
 import io from 'socket.io-client'
 
 //PRODUCCION:
-//const socket = io("https://chat-react-socketio-backend-production.up.railway.app");
+const socket = io("https://chat-react-socketio-backend-production.up.railway.app");
 
 //DESARROLLO:
-const socket = io("http://localhost:4000");
+//const socket = io("http://localhost:4000");
 
 //En el caso de que el front y el back esten en el mismo proyecto usar este codigo:
 //const socket = io("/");
